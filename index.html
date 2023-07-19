@@ -3,21 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Landing Page</title>
   </head>
   <body>
-    <div class="header">
-      <h2>Header Logo</h2>
-      <ul>
-        <li><a href="#">header link one</a></li>
-        <li><a href="#">header link two</a></li>
-        <li><a href="#">header link three</a></li>
-      </ul>
+    <!-- <div class="header">
+      <div class="header-container">
+        <div class="logo">Header Logo</div>
+        <div class="links"><a href="#">header link one</a></div>
+        <div class="links"><a href="#">header link two</a></div>
+        <div class="links"><a href="#">header link three</a></div>
+      </div>
+    </div> -->
+
+    <div class="menu-container">
+      <div class="menu">
+        <div class="logo">Header Logo</div>
+        <div class="header-one"><a href="#">header link one</a></div>
+        <div class="header-two"><a href="#">header link two</a></div>
+        <div class="header-three"><a href="#">header link three</a></div>
+      </div>
     </div>
 
     <div class="hero">
       <h2>This website is awesome</h2>
-      <p>
+      <p class="secondary">
         This website has some subtext that goes here under the main title. It's
         a smaller font and the color is lower contrast
       </p>
@@ -55,6 +65,7 @@
     <div class="CTA">
       <h4>Call to action! Its time!</h4>
       <p>Sign up for our product by clicking that button right over there!</p>
+      <button>Sign Up</button>
     </div>
 
     <div class="footer">
