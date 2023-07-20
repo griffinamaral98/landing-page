@@ -9,16 +9,15 @@ body {
   flex-direction: column;
 }
 
-.menu-container,
-.footer,
-.hero {
+.background,
+.footer {
   background-color: #1f2937;
 }
 
 button {
   background-color: #3882f6;
   color: white;
-  padding: 2px 16px;
+  padding: 4px 24px;
   border: none;
   border-radius: 4px;
 }
@@ -38,15 +37,12 @@ a,
   border: 1px solid white;
 }
 
+/* Navigation Bar */
+
 .logo {
   font-size: 24px;
   color: #f9faf8;
-}
-
-.footer {
-  margin-top: auto;
-  padding: 16px 0;
-  text-align: center;
+  font-weight: bold;
 }
 
 .menu-container {
@@ -71,6 +67,42 @@ a,
 .header-two {
   margin-right: 16px;
 }
+
+/* Hero Section */
+
+.hero-container {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+}
+
+.text-container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 8px;
+}
+
+.text-container > button {
+  align-self: flex-start;
+}
+
+/* Information Section */
 
 .info-title {
   margin-top: 30px;
@@ -102,4 +134,12 @@ a,
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: auto;
+  padding: 16px 0;
+  text-align: center;
 }
