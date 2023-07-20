@@ -78,6 +78,12 @@ a,
   gap: 20%;
 }
 
+.hero-container > div {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .text-container {
   width: 400px;
   display: flex;
@@ -135,6 +141,31 @@ a,
   text-align: center;
   justify-content: center;
 }
+
+/* Quote Section */
+
+.quote-container {
+  background-color: #e5e8eb;
+  padding: 36px;
+}
+
+.quote-text {
+  width: 605px;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  margin: auto;
+}
+
+.quote-text > span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 65%;
+}
+
+/* Call to Action */
 
 /* Footer */
 
