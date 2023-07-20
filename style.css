@@ -20,6 +20,7 @@ button {
   padding: 4px 24px;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 a {
@@ -31,10 +32,6 @@ a,
 .footer {
   font-size: 18px;
   color: #e5e7eb;
-}
-
-.CTA > button {
-  border: 1px solid white;
 }
 
 /* Navigation Bar */
@@ -75,7 +72,6 @@ a,
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20%;
 }
 
 .hero-container > div {
@@ -166,6 +162,27 @@ a,
 }
 
 /* Call to Action */
+
+.CTA {
+  background-color: #3882f6;
+  width: 50%;
+  margin: 60px auto;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 25%;
+}
+
+.content {
+  color: #e5e7eb;
+  padding: 36px;
+  align-items: center;
+}
+
+.CTA > button {
+  align-self: center;
+  border: 1px solid white;
+}
 
 /* Footer */
 
